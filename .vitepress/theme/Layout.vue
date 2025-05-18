@@ -9,6 +9,7 @@ const { site, frontmatter, page } = useData()
 <template>
   <div class="display-box">
     <div class="responsive-width">
+      <p><a href="/">Home</a> | <a href="/about">About</a> | {{ site.title }}</p>
       <div v-if="frontmatter.home">
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
@@ -20,7 +21,6 @@ const { site, frontmatter, page } = useData()
         </ul>
       </div>
       <div v-else>
-        <p><a href="/">Home</a> | {{ site.title }}</p>
         <h1>{{ frontmatter.title }}</h1>
         <Content />
       </div>
