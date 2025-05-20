@@ -9,7 +9,7 @@ const { site, frontmatter, page } = useData()
 <template>
   <div class="display-box">
     <div class="responsive-width">
-      <p><a href="/">Home</a> | <a href="/about">About</a> | {{ site.title }}</p>
+      <p><a href="/">Home</a> | <a href="/about">About</a> | <a href="https://github.com/Wesley-Young">GitHub</a> | {{ site.title }}</p>
       <div v-if="frontmatter.home">
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
