@@ -12,7 +12,6 @@ title: 关于
 
 - [Saltify 生态系统](https://github.com/SaltifyDev) - 面向新时代的 QQ Bot 解决方案
   - [saltify](https://github.com/SaltifyDev/saltify) - 跨平台、可扩展的 QQ Bot 框架
-  - [saltify-lagrange](https://github.com/LagrangeDev/saltify-lagrange) - NTQQ 协议的 Kotlin 实现
   - [milky](https://github.com/SaltifyDev/milky) - QQ 机器人应用接口标准
 - [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) - NTQQ 协议的高效率 C# 实现
   - Lagrange.Milky - 基于 Lagrange.Core 的 Milky 协议实现
