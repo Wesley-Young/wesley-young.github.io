@@ -3,21 +3,17 @@ import { Footer, Layout, Navbar, ThemeSwitch } from "nextra-theme-blog";
 import { Head } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-blog/style.css";
-import '@fontsource/inter/100.css';
-import '@fontsource/inter/200.css';
-import '@fontsource/inter/300.css';
-import '@fontsource/inter/400.css';
-import '@fontsource/inter/500.css';
-import '@fontsource/inter/600.css';
-import '@fontsource/inter/700.css';
-import '@fontsource/inter/800.css';
-import '@fontsource/inter/900.css';
-import '@fontsource-variable/noto-sans-sc';
-import './styles.css';
-
-export const metadata = {
-  title: "Blog Example",
-};
+import "@fontsource/inter/100.css";
+import "@fontsource/inter/200.css";
+import "@fontsource/inter/300.css";
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/inter/800.css";
+import "@fontsource/inter/900.css";
+import "@fontsource-variable/noto-sans-sc";
+import "./styles.css";
 
 export default async function RootLayout({ children }) {
   return (
@@ -26,6 +22,7 @@ export default async function RootLayout({ children }) {
       <body>
         <Layout>
           <Navbar pageMap={await getPageMap()}>
+            <div style={{ flexGrow: 1, alignSelf: 'end' }}><b>Young's Toy Box</b></div>
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
             <Link href="https://github.com/Wesley-Young">GitHub</Link>

@@ -1,9 +1,8 @@
-import Link from "next/link";
 import { PostCard } from "nextra-theme-blog";
-import { getPosts, getTags } from "./get-posts";
+import { getPosts } from "./get-posts";
 
 export const metadata = {
-  title: "Posts",
+  title: "Young's Toy Box | 文章",
 };
 
 export default async function PostsPage() {
@@ -11,7 +10,7 @@ export default async function PostsPage() {
 
   return (
     <div data-pagefind-ignore="all">
-      <h1>{metadata.title}</h1>
+      <h1>文章</h1>
       {posts.map((post) => (
         <PostCard key={post.route} post={post} />
       ))}
