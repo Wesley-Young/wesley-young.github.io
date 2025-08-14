@@ -142,7 +142,7 @@ byte[] value Prefix int16;
 
 ### ProtoBuf
 
-QQ 的数据表大量使用了 [ProtoBuf](https://protobuf.dev/) 作为编码格式。因此，我们需要一个用于编解码 ProtoBuf 的基础设施，将序列化的 ProtoBuf 二进制信息与程序中的结构体相对应。传统的做法一般是使用 `protoc` 将 `.proto` 文件编译到各种语言的序列化代码；但出于某种奇怪的传统和对效率的极致追求，Lagrange 的实现者采用了另一种思路，直接通过属性标记将 ProtoBuf 高效集成到强类型对象结构的声明中。
+QQ 的数据包大量使用了 [ProtoBuf](https://protobuf.dev/) 作为编码格式。因此，我们需要一个用于编解码 ProtoBuf 的基础设施，将序列化的 ProtoBuf 二进制信息与程序中的结构体相对应。传统的做法一般是使用 `protoc` 将 `.proto` 文件编译到各种语言的序列化代码；但出于某种奇怪的传统和对效率的极致追求，Lagrange 的实现者采用了另一种思路，直接通过属性标记将 ProtoBuf 高效集成到强类型对象结构的声明中。
 
 Lagrange V1 使用的是 [protobuf-net](https://github.com/protobuf-net/protobuf-net)；V2 则使用了自主编写的、兼容 Native AOT 的序列化框架 [Lagrange.Proto](https://github.com/LagrangeDev/LagrangeV2/tree/main/Lagrange.Proto)。笔者也分别用 [TypeScript](https://github.com/SaltifyDev/tanebi-protobuf) 和 [Kotlin]((https://github.com/SaltifyDev/saltify-protobuf)) 实现了两个类似的框架。
 
