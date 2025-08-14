@@ -17,6 +17,7 @@ export default async function RootLayout({ children }) {
           <Navbar pageMap={await getPageMap()}>
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
+            <Link href="https://github.com/Wesley-Young">GitHub</Link>
             <ThemeSwitch />
           </Navbar>
 
