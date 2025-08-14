@@ -12,6 +12,8 @@
   "author": "",
   "packageManager": "pnpm@10.14.0",
   "dependencies": {
+    "@fontsource-variable/noto-sans-sc": "^5.2.6",
+    "@fontsource/inter": "^5.2.6",
     "next": "^15.4.6",
     "nextra": "^4.3.0",
     "nextra-theme-blog": "^4.3.0",
