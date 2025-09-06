@@ -3,7 +3,13 @@ title: Kotlin/Native 移植踩坑记
 date: 2025-09-03
 ---
 
-前段时间，鉴于 Linwenxuan 已经写过了[纯 Kotlin 的相关加密算法实现](https://github.com/LagrangeDev/lagrange-kotlin/tree/main/src/main/kotlin/org/lagrange/dev/utils/crypto)，想要把半成品的 [lagrange-kotlin](https://github.com/LagrangeDev/Lagrange-kotlin) 移植到 Kotlin/Native 平台。在移植过程中，笔者进行了一些努力，但以失败告终，现记录过程如下。
+前段时间，鉴于 Linwenxuan 已经写过了[纯 Kotlin 的相关加密算法实现](https://github.com/LagrangeDev/lagrange-kotlin/tree/main/src/main/kotlin/org/lagrange/dev/utils/crypto)，想要把半成品的 [lagrange-kotlin](https://github.com/LagrangeDev/Lagrange-kotlin) 移植到 Kotlin/Native 平台，项目地址位于 [SaltifyDev/acidify](https://github.com/SaltifyDev/acidify)。在移植过程中，笔者进行了一些努力，但以失败告终，现记录过程如下。
+
+> [!note]
+>
+> 在写下这篇文章不久后，笔者的移植工作受到了 [Linwenxuan 的无私协助](https://github.com/SaltifyDev/acidify/commit/5295a04e5a5a1537d57408ca5c8bec8246c483af)，他编写了纯 Kotlin 的高效 BigInt 实现，并且移植了 ECDH 算法，因而移植工作得以延续。笔者在此对 Linwenxuan 表示诚挚的感谢！
+>
+> 此文档仍然会保留，以记录笔者在移植过程中遇到的坑和寻找到的解决方案，供日后参考。
 
 ## 零反射的 Protobuf 框架
 
