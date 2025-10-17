@@ -16,6 +16,10 @@ home: true
   - **Language:** Kotlin  
   - **Role:** Main Developer  
   - **Status:** 🔧 Maintaining
+- [Cecilia](https://github.com/Wesley-Young/Cecilia) — 基于 Acidify + Compose 的即时聊天软件  
+  - **Language:** Kotlin  
+  - **Role:** Main Developer  
+  - **Status:** 🔧 Maintaining
 - [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现  
   - **Language:** C#  
   - **Role:** Maintainer  
