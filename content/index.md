@@ -8,21 +8,36 @@ home: true
 ## Projects
 
 ### Active
-
-| Project                                                 | Language | My Role        | Description             | Status         |
-| ------------------------------------------------------- | -------- | -------------- | ----------------------- | -------------- |
-| [milky](https://github.com/SaltifyDev/milky)            | N/A      | Main Developer | QQ 机器人应用接口标准   | 🔧 Maintaining |
-| [acidify](https://github.com/LagrangeDev/acidify)       | Kotlin   | Main Developer | NTQQ 协议的 Kotlin 实现 | 🔧 Maintaining |
-| [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) | C#       | Maintainer     | NTQQ 协议的 C# 实现     | ⌨️ Developing  |
+- [milky](https://github.com/SaltifyDev/milky) — QQ 机器人应用接口标准  
+  - **Language:** N/A  
+  - **Role:** Main Developer  
+  - **Status:** 🔧 Maintaining
+- [acidify](https://github.com/LagrangeDev/acidify) — NTQQ 协议的 Kotlin 实现  
+  - **Language:** Kotlin  
+  - **Role:** Main Developer  
+  - **Status:** 🔧 Maintaining
+- [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现  
+  - **Language:** C#  
+  - **Role:** Maintainer  
+  - **Status:** ⌨️ Developing
 
 ### Inactive
-
-| Project                                                       | Language   | My Role        | Description                  | Status                     |
-| ------------------------------------------------------------- | ---------- | -------------- | ---------------------------- | -------------------------- |
-| [tanebi](https://github.com/SaltifyDev/tanebi)                | TypeScript | Main Developer | NTQQ 协议的 TypeScript 实现  | 👀 Looking for maintainers |
-| [saltify](https://github.com/SaltifyDev/saltify)              | Kotlin     | Main Developer | 跨平台、可扩展的 QQ Bot 框架 | 🏗️ Refactoring             |
-| [projectGDT](https://github.com/projectGDT/project-gdt)       | TypeScript | Main Developer | Minecraft 群服互通开放平台   | 🏗️ Refactoring             |
-| [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) | C#         | Contributor    | NTQQ 协议的 C# 实现          | 🔒 Archived                |
+- [tanebi](https://github.com/SaltifyDev/tanebi) — NTQQ 协议的 TypeScript 实现  
+  - **Language:** TypeScript  
+  - **Role:** Main Developer  
+  - **Status:** 👀 Looking for maintainers
+- [saltify](https://github.com/SaltifyDev/saltify) — 跨平台、可扩展的 QQ Bot 框架  
+  - **Language:** Kotlin  
+  - **Role:** Main Developer  
+  - **Status:** 🏗️ Refactoring
+- [projectGDT](https://github.com/projectGDT/project-gdt) — Minecraft 群服互通开放平台  
+  - **Language:** TypeScript  
+  - **Role:** Main Developer  
+  - **Status:** 🏗️ Refactoring
+- [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) — NTQQ 协议的 C# 实现  
+  - **Language:** C#  
+  - **Role:** Contributor  
+  - **Status:** 🔒 Archived
 
 ## Work Experience
 
