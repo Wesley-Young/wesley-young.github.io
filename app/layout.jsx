@@ -27,6 +27,7 @@ export default async function RootLayout({ children }) {
             </div>
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
+            <Link href="/friends">Friends</Link>
             <Link href="https://github.com/Wesley-Young">GitHub</Link>
             <ThemeSwitch />
           </Navbar>
