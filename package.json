@@ -10,15 +10,15 @@
   },
   "keywords": [],
   "author": "",
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.25.0",
   "dependencies": {
-    "@fontsource-variable/noto-sans-sc": "^5.2.6",
-    "@fontsource/inter": "^5.2.6",
-    "next": "^15.4.6",
-    "nextra": "^4.3.0",
-    "nextra-theme-blog": "^4.3.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "@fontsource-variable/noto-sans-sc": "^5.2.9",
+    "@fontsource/inter": "^5.2.8",
+    "next": "^15.5.9",
+    "nextra": "^4.6.1",
+    "nextra-theme-blog": "^4.6.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -26,6 +26,6 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
