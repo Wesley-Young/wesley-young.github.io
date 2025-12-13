@@ -5,7 +5,12 @@ home: true
 
 你好！我是魏飞扬，目前就读于清华大学物理系。
 
-## Projects
+## Work Experience
+
+- 2025-Present, [Xu Yong](https://iiis.tsinghua.edu.cn/rydw/qzjs/xuyong.htm) 课题组
+- 2024-Present, 清华大学物理系学生科学与技术协会
+
+## Hobby Projects
 
 ### Active
 - [milky](https://github.com/SaltifyDev/milky) — QQ 机器人应用接口标准  
@@ -42,8 +47,3 @@ home: true
   - **Language:** C#  
   - **Role:** Contributor  
   - **Status:** 🔒 Archived
-
-## Work Experience
-
-- 2025-Present, [Xu Yong](https://iiis.tsinghua.edu.cn/rydw/qzjs/xuyong.htm) 课题组
-- 2024-Present, 清华大学物理系学生科学与技术协会
