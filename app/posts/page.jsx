@@ -1,5 +1,5 @@
-import { PostCard } from "nextra-theme-blog";
-import { getPosts } from "./get-posts";
+import { PostCard } from 'nextra-theme-blog';
+import { getPosts } from './get-posts';
 
 export const metadata = {
   title: "Young's Toy Box | 文章",

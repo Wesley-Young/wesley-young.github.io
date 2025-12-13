@@ -1,28 +1,30 @@
-import Link from "next/link";
-import { Footer, Layout, Navbar, ThemeSwitch } from "nextra-theme-blog";
-import { Head } from "nextra/components";
-import { getPageMap } from "nextra/page-map";
-import "nextra-theme-blog/style.css";
-import "@fontsource/inter/100.css";
-import "@fontsource/inter/200.css";
-import "@fontsource/inter/300.css";
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/500.css";
-import "@fontsource/inter/600.css";
-import "@fontsource/inter/700.css";
-import "@fontsource/inter/800.css";
-import "@fontsource/inter/900.css";
-import "@fontsource-variable/noto-sans-sc";
-import "./styles.css";
+import Link from 'next/link';
+import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog';
+import { Head } from 'nextra/components';
+import { getPageMap } from 'nextra/page-map';
+import 'nextra-theme-blog/style.css';
+import '@fontsource/inter/100.css';
+import '@fontsource/inter/200.css';
+import '@fontsource/inter/300.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/inter/800.css';
+import '@fontsource/inter/900.css';
+import '@fontsource-variable/noto-sans-sc';
+import './styles.css';
 
 export default async function RootLayout({ children }) {
   return (
     <html lang="zh" suppressHydrationWarning>
-      <Head backgroundColor={{ dark: "#0f172a" }} />
+      <Head backgroundColor={{ dark: '#0f172a' }} />
       <body>
         <Layout>
           <Navbar pageMap={await getPageMap()}>
-            <div style={{ flexGrow: 1, alignSelf: 'end' }}><b>Young's Toy Box</b></div>
+            <div style={{ flexGrow: 1, alignSelf: 'end' }}>
+              <b>Young's Toy Box</b>
+            </div>
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
             <Link href="https://github.com/Wesley-Young">GitHub</Link>
@@ -34,10 +36,10 @@ export default async function RootLayout({ children }) {
           <Footer>
             <abbr
               title="This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-              style={{ cursor: "help" }}
+              style={{ cursor: 'help' }}
             >
               CC BY-NC 4.0
-            </abbr>{" "}
+            </abbr>{' '}
             {new Date().getFullYear()} © Wesley Young.
           </Footer>
         </Layout>
