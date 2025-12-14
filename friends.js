@@ -6,8 +6,8 @@ export default [
     link: "https://blog.erroro.moe/",
   },
   {
-      title: "校奥浆糊",
-      link: "https://blog.xiaoaojianghu.fun/",
-      avatar: "https://blog.xiaoaojianghu.fun/img/icon.jpeg"
-  }
+    title: "校奥浆糊",
+    avatarUrl: "https://blog.xiaoaojianghu.fun/img/icon.jpeg",
+    link: "https://blog.xiaoaojianghu.fun/",
+  },
 ];
