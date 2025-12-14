@@ -19,3 +19,37 @@ code, kbd, samp, pre {
 code.nextra-code {
     font-size: 1em;
 }
+
+.friends-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.friend-card {
+    display: flex;
+    align-items: center;
+    background-color: var(--friend-card-bg);
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--friend-card-border);
+}
+
+.friend-avatar {
+    margin: 0 16px 0 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.friend-card-content {
+    flex-grow: 1;
+}
+
+.friend-card h3 {
+    margin-top: 0;
+}
+
+.friend-card p {
+    margin-bottom: 0;
+}

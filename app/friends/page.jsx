@@ -5,38 +5,21 @@ export default function Page() {
     <div>
       <h1>友情链接</h1>
       <p>以下是 Young 的一些可爱的朋友们——</p>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+      <div className="friends-list">
         {friends.map((friend, index) => (
-          <div
-            key={index}
-            style={{
-              display: 'flex',
-              backgroundColor: 'var(--friend-card-bg)',
-              padding: '16px',
-              borderRadius: '8px',
-              border: '2px solid var(--friend-card-border)',
-              alignItems: 'center',
-            }}
-          >
+          <div key={index} className="friend-card">
             <img
               src={friend.avatarUrl}
               alt={friend.title}
-              style={{
-                marginTop: 0,
-                marginBottom: 0,
-                width: '64px',
-                height: '64px',
-                borderRadius: '32px',
-                marginRight: '16px',
-              }}
+              className="friend-avatar"
             />
-            <div style={{ flexGrow: 1 }}>
-              <h3 style={{ marginTop: 0 }}>
+            <div className="friend-card-content">
+              <h3>
                 <a href={friend.link} target="_blank" rel="noopener noreferrer">
                   {friend.title}
                 </a>
               </h3>
-              <p style={{ marginBottom: 0 }}>{friend.description}</p>
+              <p>{friend.description}</p>
             </div>
           </div>
         ))}
