@@ -12,11 +12,7 @@ export default function Page() {
       <div className="friends-list">
         {friends.map((friend, index) => (
           <div key={index} className="friend-card">
-            <img
-              src={friend.avatarUrl}
-              alt={friend.title}
-              className="friend-avatar"
-            />
+            <img src={friend.avatarUrl} alt={friend.title} className="friend-avatar" />
             <div className="friend-card-content">
               <h3>
                 <a href={friend.link} target="_blank" rel="noopener noreferrer">
@@ -30,7 +26,15 @@ export default function Page() {
       </div>
       <h2>添加友情链接</h2>
       <p>
-        提交 Pull Request 至 Blog 根目录下的 <code>friends.js</code> 文件。
+        提交{' '}
+        <a
+          href="https://github.com/Wesley-Young/wesley-young.github.io/pulls"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pull Request
+        </a>{' '}
+        至 Blog 根目录下的 <code>friends.js</code> 文件。
       </p>
       <p>
         需要提供站点标题、描述、头像 URL 和链接，同时注意 <b>保留 trailing comma</b>。
