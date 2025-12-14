@@ -11,10 +11,10 @@ export default function Page() {
             key={index}
             style={{
               display: 'flex',
-              backgroundColor: '#ffffff',
+              backgroundColor: 'var(--friend-card-bg)',
               padding: '16px',
               borderRadius: '8px',
-              border: '1px solid #e0e0e0',
+              border: '2px solid var(--friend-card-border)',
               alignItems: 'center',
             }}
           >

@@ -2,6 +2,16 @@ body {
     font-family: "Inter", "Noto Sans SC", sans-serif;
 }
 
+:root {
+    --friend-card-bg: #ffffff;
+    --friend-card-border: #e0e0e0;
+}
+
+.dark {
+    --friend-card-bg: #0f172a;
+    --friend-card-border: #1f2937;
+}
+
 code, kbd, samp, pre {
     font-family: SFMono-Regular, "SF Mono", "JetBrains Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
