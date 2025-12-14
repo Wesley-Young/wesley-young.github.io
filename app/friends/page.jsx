@@ -1,5 +1,9 @@
 import friends from '../../friends';
 
+export const metadata = {
+  title: "Young's Toy Box | 友情链接",
+};
+
 export default function Page() {
   return (
     <div>
