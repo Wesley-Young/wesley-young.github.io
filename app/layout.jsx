@@ -28,7 +28,9 @@ export default async function RootLayout({ children }) {
             <Link href="/">Home</Link>
             <Link href="/posts">Posts</Link>
             <Link href="/friends">Friends</Link>
-            <Link href="https://github.com/Wesley-Young">GitHub</Link>
+            <Link href="https://github.com/Wesley-Young" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </Link>
             <ThemeSwitch />
           </Navbar>
 
