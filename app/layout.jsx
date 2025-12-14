@@ -14,6 +14,31 @@ import '@fontsource/inter/800.css';
 import '@fontsource/inter/900.css';
 import '@fontsource-variable/noto-sans-sc';
 import './styles.css';
+import NavDropdown from './nav-dropdown';
+
+const navItems = [
+  { href: '/', label: 'Home' },
+  { href: '/posts', label: 'Posts' },
+  { href: '/friends', label: 'Friends' },
+  {
+    href: 'https://github.com/Wesley-Young',
+    label: 'GitHub',
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  },
+];
+
+function Links() {
+  return (
+    <>
+      {navItems.map((item) => (
+        <Link key={item.href} href={item.href} target={item.target} rel={item.rel}>
+          {item.label}
+        </Link>
+      ))}
+    </>
+  );
+}
 
 export default async function RootLayout({ children }) {
   return (
@@ -22,15 +47,13 @@ export default async function RootLayout({ children }) {
       <body>
         <Layout>
           <Navbar pageMap={await getPageMap()}>
-            <div style={{ flexGrow: 1, alignSelf: 'end' }}>
+            <div className="nav-brand">
               <b>Young's Toy Box</b>
             </div>
-            <Link href="/">Home</Link>
-            <Link href="/posts">Posts</Link>
-            <Link href="/friends">Friends</Link>
-            <Link href="https://github.com/Wesley-Young" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </Link>
+            <div className="nav-links">
+              <Links />
+            </div>
+            <NavDropdown items={navItems} />
             <ThemeSwitch />
           </Navbar>
 
