@@ -14,7 +14,7 @@
   "dependencies": {
     "@fontsource-variable/noto-sans-sc": "^5.2.9",
     "@fontsource/inter": "^5.2.8",
-    "next": "^15.5.9",
+    "next": "^16.1.1",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",
     "react": "^19.2.3",
