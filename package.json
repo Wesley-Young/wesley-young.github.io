@@ -10,10 +10,11 @@
   },
   "keywords": [],
   "author": "",
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "dependencies": {
     "@fontsource-variable/noto-sans-sc": "^5.2.9",
     "@fontsource/inter": "^5.2.8",
+    "@theguild/remark-mermaid": "^0.3.0",
     "next": "^16.1.1",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",

@@ -14,6 +14,9 @@ importers:
       '@fontsource/inter':
         specifier: ^5.2.8
         version: 5.2.8
+      '@theguild/remark-mermaid':
+        specifier: ^0.3.0
+        version: 0.3.0(react@19.2.3)
       next:
         specifier: ^16.1.1
         version: 16.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
