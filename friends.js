@@ -10,4 +10,10 @@ export default [
     avatarUrl: "https://blog.xiaoaojianghu.fun/img/icon.jpeg",
     link: "https://blog.xiaoaojianghu.fun/",
   },
+  {
+    title: "里世界",
+    description: "Welcome To The World Of Lee",
+    avatarUrl: "https://leenet.xyz/avatar.png",
+    link: "https://leenet.xyz",
+  },
 ];
