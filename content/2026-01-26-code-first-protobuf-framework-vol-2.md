@@ -3,7 +3,7 @@ title: Code-First 的 Protobuf 框架（下）
 date: 2026-01-26
 ---
 
-[前篇文章](2025-12-26-code-first-protobuf-framework-vol-1)介绍了笔者用 TypeScript 编写的 Protobuf 框架 [typeproto](https://github.com/SaltifyDev/typeproto) 的主要设计思路和实现细节。本篇将讨论笔者用 Kotlin 编写的另一个 Protobuf 框架的设计思路。此框架尚未发布到 Maven Central，其源代码位于 [Acidify 项目](https://github.com/LagrangeDev/acidify/tree/main/acidify-core/src/commonMain/kotlin/org/ntqqrev/acidify/internal/protobuf)中。
+[前篇文章](2025-12-26-code-first-protobuf-framework-vol-1)介绍了笔者用 TypeScript 编写的 Protobuf 框架 [typeproto](https://github.com/SaltifyDev/typeproto) 的主要设计思路和实现细节。本篇将讨论笔者用 Kotlin 编写的另一个 Protobuf 框架 [ProtoDSL](https://github.com/SaltifyDev/proto-dsl)。此框架曾经用于笔者的 [Acidify 项目](https://github.com/LagrangeDev/acidify)（后迁移到 Kotlinx Serialization）。
 
 ## 基本用法
 
