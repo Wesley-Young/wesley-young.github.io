@@ -27,6 +27,10 @@ home: true
   - **Language:** Kotlin  
   - **Role:** Main Developer  
   - **Status:** 🔧 Maintaining
+- [saltify](https://github.com/SaltifyDev/saltify) — 跨平台、可扩展的 QQ Bot 框架  
+  - **Language:** Kotlin  
+  - **Role:** Main Developer  
+  - **Status:** ⌨️ Developing
 - [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现  
   - **Language:** C#  
   - **Role:** Maintainer  
@@ -41,10 +45,6 @@ home: true
   - **Language:** TypeScript  
   - **Role:** Main Developer  
   - **Status:** 👀 Looking for maintainers
-- [saltify](https://github.com/SaltifyDev/saltify) — 跨平台、可扩展的 QQ Bot 框架  
-  - **Language:** Kotlin  
-  - **Role:** Main Developer  
-  - **Status:** 🏗️ Refactoring
 - [projectGDT](https://github.com/projectGDT/project-gdt) — Minecraft 群服互通开放平台  
   - **Language:** TypeScript  
   - **Role:** Main Developer  
