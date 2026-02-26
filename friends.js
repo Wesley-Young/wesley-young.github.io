@@ -16,4 +16,10 @@ export default [
     avatarUrl: "https://leenet.xyz/avatar.png",
     link: "https://leenet.xyz",
   },
+  {
+    title: "Cdm2883 的个人博客",
+    description: "我的中文个人博客 =￣ω￣=",
+    avatarUrl: "https://q1.qlogo.cn/g?b=qq&nk=1759370644&s=140",
+    link: "https://blog.cdms.vip",
+  },
 ];
