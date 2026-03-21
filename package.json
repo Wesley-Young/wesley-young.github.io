@@ -15,6 +15,7 @@
     "@fontsource-variable/noto-sans-sc": "^5.2.10",
     "@fontsource/inter": "^5.2.8",
     "@theguild/remark-mermaid": "^0.3.0",
+    "katex": "^0.16.40",
     "next": "^16.1.6",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",

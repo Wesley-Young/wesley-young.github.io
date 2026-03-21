@@ -14,6 +14,7 @@ import '@fontsource/inter/800.css';
 import '@fontsource/inter/900.css';
 import '@fontsource-variable/noto-sans-sc';
 import './styles.css';
+import 'katex/dist/katex.min.css';
 import NavDropdown from './nav-dropdown';
 
 const navItems = [
