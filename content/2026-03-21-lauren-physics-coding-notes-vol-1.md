@@ -430,6 +430,6 @@ public int Measure(QuantumOperator op)
 }
 ```
 
----
+## 未来开发与性能优化
 
-以上就是 `Lauren.Physics` 中已经完成的部分的构造和运行原理的简要介绍。在另外两个模块 `Lauren.Circuit` 和 `Lauren.Codes` 完成后，会有另一篇文章介绍 `Frame` 的运行原理，并且介绍如何通过量子线路模拟来得到错误分布并建立 DEM 模型。敬请期待！
+目前 `Lauren.Physics` 模块已经接近完工，后续将开发 `Circuit` 和 `Codes` 模块，完成 Stage 1。从性能上看，目前 `Physics` 模块虽然有 C# JIT 的加持，但其代码逻辑中仍然存在 `for` 循环等，并且使用 `BitArray` 来表示占据情况也不甚高效，未来将会通过 SIMD 指令、`ulong` 位运算等尽量让运算矢量化，以期达到更高的性能。
