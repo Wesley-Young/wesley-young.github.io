@@ -19,6 +19,7 @@ home: true
 ## Hobby Projects
 
 ### Active
+
 - [milky](https://github.com/SaltifyDev/milky) — QQ 机器人应用接口标准  
   - **Language:** N/A  
   - **Role:** Main Developer  
@@ -31,16 +32,17 @@ home: true
   - **Language:** Kotlin  
   - **Role:** Main Developer  
   - **Status:** ⌨️ Developing
+- [Cecilia](https://github.com/Wesley-Young/Cecilia) — TUI 即时聊天软件
+  - **Language:** TypeScript
+  - **Role:** Main Developer  
+  - **Status:** ⌨️ Developing
 - [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现  
   - **Language:** C#  
   - **Role:** Maintainer  
   - **Status:** ⌨️ Developing
 
 ### Inactive
-- [Cecilia](https://github.com/Wesley-Young/Cecilia) — 基于 Acidify + Compose 的即时聊天软件  
-  - **Language:** Kotlin  
-  - **Role:** Main Developer  
-  - **Status:** 🔒 Archived
+
 - [tanebi](https://github.com/SaltifyDev/tanebi) — NTQQ 协议的 TypeScript 实现  
   - **Language:** TypeScript  
   - **Role:** Main Developer  
