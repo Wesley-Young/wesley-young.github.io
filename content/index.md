@@ -7,7 +7,8 @@ home: true
 
 ## Work Experience
 
-- 2025-Present, 清华大学交叉信息研究院[徐勇](https://iiis.tsinghua.edu.cn/rydw/qzjs/xuyong.htm)课题组，本科生科研训练（Seminar 制）
+- 2026-Present, 清华大学物理系[刘东](https://www.phys.tsinghua.edu.cn/info/1098/4212.htm)课题组，本科生科研训练（Seminar 制）
+- 2025-2026, 清华大学交叉信息研究院[徐勇](https://iiis.tsinghua.edu.cn/rydw/qzjs/xuyong.htm)课题组，本科生科研训练（Seminar 制）
 - 2024-Present, 清华大学物理系学生科学与技术协会
   - 技术组成员（2024-2025）
   - 副主席（2025-Present）
@@ -20,38 +21,42 @@ home: true
 
 ### Active
 
-- [milky](https://github.com/SaltifyDev/milky) — QQ 机器人应用接口标准  
-  - **Language:** N/A  
-  - **Role:** Main Developer  
+- [milky](https://github.com/SaltifyDev/milky) — QQ 机器人应用接口标准
+  - **Language:** N/A
+  - **Role:** Main Developer
   - **Status:** 🔧 Maintaining
-- [acidify](https://github.com/LagrangeDev/acidify) — NTQQ 协议的 Kotlin 实现  
-  - **Language:** Kotlin  
-  - **Role:** Main Developer  
+- [acidify](https://github.com/LagrangeDev/acidify) — NTQQ 协议的 Kotlin 实现
+  - **Language:** Kotlin
+  - **Role:** Main Developer
   - **Status:** 🔧 Maintaining
-- [saltify](https://github.com/SaltifyDev/saltify) — 跨平台、可扩展的 QQ Bot 框架  
-  - **Language:** Kotlin  
-  - **Role:** Main Developer  
+- [saltify](https://github.com/SaltifyDev/saltify) — Kotlin 聊天机器人框架
+  - **Language:** Kotlin
+  - **Role:** Main Developer
   - **Status:** ⌨️ Developing
-- [Cecilia](https://github.com/Wesley-Young/Cecilia) — TUI 即时聊天软件
+- [Fraq](https://github.com/fraqjs/fraq) — TypeScript 聊天机器人框架
   - **Language:** TypeScript
-  - **Role:** Main Developer  
+  - **Role:** Main Developer
   - **Status:** ⌨️ Developing
-- [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现  
-  - **Language:** C#  
-  - **Role:** Maintainer  
+- [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现
+  - **Language:** C#
+  - **Role:** Maintainer
   - **Status:** ⌨️ Developing
 
 ### Inactive
 
-- [tanebi](https://github.com/SaltifyDev/tanebi) — NTQQ 协议的 TypeScript 实现  
-  - **Language:** TypeScript  
-  - **Role:** Main Developer  
+- [tanebi](https://github.com/SaltifyDev/tanebi) — NTQQ 协议的 TypeScript 实现
+  - **Language:** TypeScript
+  - **Role:** Main Developer
   - **Status:** 👀 Looking for maintainers
-- [projectGDT](https://github.com/projectGDT/project-gdt) — Minecraft 群服互通开放平台  
-  - **Language:** TypeScript  
-  - **Role:** Main Developer  
+- [projectGDT](https://github.com/projectGDT/project-gdt) — Minecraft 群服互通开放平台
+  - **Language:** TypeScript
+  - **Role:** Main Developer
   - **Status:** 🏗️ Refactoring
-- [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) — NTQQ 协议的 C# 实现  
-  - **Language:** C#  
-  - **Role:** Contributor  
+- [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) — NTQQ 协议的 C# 实现
+  - **Language:** C#
+  - **Role:** Contributor
   - **Status:** 🔒 Archived
+- [Cecilia](https://github.com/Wesley-Young/Cecilia) — TUI 即时聊天软件
+  - **Language:** TypeScript
+  - **Role:** Main Developer
+  - **Status:** ⌨️ Developing
