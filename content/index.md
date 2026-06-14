@@ -11,7 +11,8 @@ home: true
 - 2025-2026, 清华大学交叉信息研究院[徐勇](https://iiis.tsinghua.edu.cn/rydw/qzjs/xuyong.htm)课题组，本科生科研训练（Seminar 制）
 - 2024-Present, 清华大学物理系学生科学与技术协会
   - 技术组成员（2024-2025）
-  - 副主席（2025-Present）
+  - 副主席（2025-2026）
+  - 主席（2026-Present）
 
 ## Academic Projects
 
