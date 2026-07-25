@@ -16,7 +16,7 @@
     "@fontsource/inter": "^5.3.0",
     "@theguild/remark-mermaid": "^0.3.0",
     "katex": "^0.16.47",
-    "next": "^16.2.11",
+    "next": "^16.1.7",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",
     "react": "^19.2.8",
