@@ -10,24 +10,19 @@
   },
   "keywords": [],
   "author": "",
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@11.17.0",
   "dependencies": {
-    "@fontsource-variable/noto-sans-sc": "^5.2.10",
-    "@fontsource/inter": "^5.2.8",
+    "@fontsource-variable/noto-sans-sc": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
     "@theguild/remark-mermaid": "^0.3.0",
-    "katex": "^0.16.40",
-    "next": "^16.1.6",
+    "katex": "^0.16.47",
+    "next": "^16.2.11",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp"
-    ]
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   }
 }
