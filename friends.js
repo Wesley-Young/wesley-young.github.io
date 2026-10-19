@@ -22,4 +22,16 @@ export default [
     avatarUrl: "https://q1.qlogo.cn/g?b=qq&nk=1759370644&s=140",
     link: "https://blog.cdms.vip",
   },
+  {
+    title: "KujoStar",
+    description: "平泽唯的地下男友",
+    avatarUrl: "https://kujostar.github.io/assets/avatar.jpg",
+    link: "https://kujostar.github.io/",
+  },
+  {
+    title: "zdd14990",
+    description: "家里蹲是绝对正义",
+    avatarUrl: "https://zdd14990.github.io/assets/avatar.jpg",
+    link: "https://zdd14990.github.io/",
+  },
 ];
