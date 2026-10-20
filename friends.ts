@@ -47,6 +47,12 @@ const friends: Friend[] = [
     avatarUrl: 'https://yukar.icu/avatar.jpg',
     link: 'https://yukar.icu/',
   },
+  {
+    title: 'tyxkk2',
+    description: '叶わぬ 願いごとを',
+    avatarUrl: 'https://tyxkk2.me/images/avatar.jpg',
+    link: 'https://tyxkk2.me/',
+  },
 ];
 
 export default friends;
