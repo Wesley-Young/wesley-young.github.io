@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Head } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
 import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog';
+import type { ReactNode } from 'react';
 import 'nextra-theme-blog/style.css';
 import '@fontsource/inter/100.css';
 import '@fontsource/inter/200.css';
@@ -15,9 +16,9 @@ import '@fontsource/inter/900.css';
 import '@fontsource-variable/noto-sans-sc';
 import './styles.css';
 import 'katex/dist/katex.min.css';
-import NavDropdown from './nav-dropdown';
+import NavDropdown, { type NavItem } from './nav-dropdown';
 
-const navItems = [
+const navItems: NavItem[] = [
   { href: '/', label: 'Home' },
   { href: '/posts', label: 'Posts' },
   { href: '/friends', label: 'Friends' },
@@ -41,7 +42,7 @@ function Links() {
   );
 }
 
-export default async function RootLayout({ children }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="zh" suppressHydrationWarning>
       <Head backgroundColor={{ dark: '#0f172a' }} />

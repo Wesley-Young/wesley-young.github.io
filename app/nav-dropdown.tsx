@@ -3,8 +3,15 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useRef } from 'react';
 
-export default function NavDropdown({ items }) {
-  const detailsRef = useRef(null);
+export interface NavItem {
+  href: string;
+  label: string;
+  target?: string;
+  rel?: string;
+}
+
+export default function NavDropdown({ items }: { items: NavItem[] }) {
+  const detailsRef = useRef<HTMLDetailsElement>(null);
 
   const closeMenu = useCallback(() => {
     if (detailsRef.current) {
@@ -13,10 +20,10 @@ export default function NavDropdown({ items }) {
   }, []);
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (event: MouseEvent) => {
       const details = detailsRef.current;
       if (!details?.open) return;
-      if (details.contains(event.target)) return;
+      if (details.contains(event.target as Node)) return;
       details.open = false;
     };
 

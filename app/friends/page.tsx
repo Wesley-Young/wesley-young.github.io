@@ -36,7 +36,7 @@ export default function Page() {
         >
           Pull Request
         </a>{' '}
-        至 Blog 根目录下的 <code>friends.js</code> 文件。
+        至 Blog 根目录下的 <code>friends.ts</code> 文件。
       </p>
       <p>
         需要提供站点标题、描述、头像 URL 和链接，同时注意 <b>保留 trailing comma</b>。

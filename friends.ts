@@ -1,4 +1,11 @@
-export default [
+export interface Friend {
+  title: string;
+  description?: string;
+  avatarUrl: string;
+  link: string;
+}
+
+const friends: Friend[] = [
   {
     title: "ErrOrO's Space",
     description: 'OrO?OrO!',
@@ -35,3 +42,5 @@ export default [
     link: 'https://zdd14990.github.io/',
   },
 ];
+
+export default friends;
