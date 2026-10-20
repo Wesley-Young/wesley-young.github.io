@@ -41,6 +41,12 @@ const friends: Friend[] = [
     avatarUrl: 'https://zdd14990.github.io/assets/avatar.jpg',
     link: 'https://zdd14990.github.io/',
   },
+  {
+    title: 'Yukari',
+    description: '浪漫与理想是我的同义词',
+    avatarUrl: 'https://yukar.icu/avatar.jpg',
+    link: 'https://yukar.icu/',
+  },
 ];
 
 export default friends;
