@@ -1,10 +1,10 @@
-import nextra from 'nextra'
+import nextra from 'nextra';
 
 const withNextra = nextra({
-    latex: true,
+  latex: true,
 });
 
 export default withNextra({
-    output: 'export',
-    images: { unoptimized: true },
+  output: 'export',
+  images: { unoptimized: true },
 });

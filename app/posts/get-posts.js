@@ -1,11 +1,7 @@
 import { normalizePages } from 'nextra/normalize-pages';
 import { getPageMap } from 'nextra/page-map';
 
-const specialPosts = [
-  'index',
-  'posts',
-  'friends'
-];
+const specialPosts = ['index', 'posts', 'friends'];
 
 export async function getPosts() {
   const { directories } = normalizePages({

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "biome check .",
+    "format": "biome check --write ."
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.15",
     "typescript": "^6.0.3"
   }
 }

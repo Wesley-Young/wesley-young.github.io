@@ -15,7 +15,7 @@ export default function NavDropdown({ items }) {
   useEffect(() => {
     const handleClickOutside = (event) => {
       const details = detailsRef.current;
-      if (!details || !details.open) return;
+      if (!details?.open) return;
       if (details.contains(event.target)) return;
       details.open = false;
     };
@@ -31,13 +31,7 @@ export default function NavDropdown({ items }) {
       <summary aria-label="Open navigation menu">Menu</summary>
       <div className="nav-dropdown-menu">
         {items.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            target={item.target}
-            rel={item.rel}
-            onClick={closeMenu}
-          >
+          <Link key={item.href} href={item.href} target={item.target} rel={item.rel} onClick={closeMenu}>
             {item.label}
           </Link>
         ))}

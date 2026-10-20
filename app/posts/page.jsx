@@ -1,4 +1,5 @@
 import { PostCard } from 'nextra-theme-blog';
+
 import { getPosts } from './get-posts';
 
 export const metadata = {

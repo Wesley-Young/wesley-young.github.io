@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import friends from '../../friends';
 
 export const metadata = {
@@ -10,9 +12,9 @@ export default function Page() {
       <h1>友情链接</h1>
       <p>以下是 Young 的一些可爱的朋友们——</p>
       <div className="friends-list">
-        {friends.map((friend, index) => (
-          <div key={index} className="friend-card">
-            <img src={friend.avatarUrl} alt={friend.title} className="friend-avatar" />
+        {friends.map((friend) => (
+          <div key={friend.link} className="friend-card">
+            <Image src={friend.avatarUrl} alt={friend.title} className="friend-avatar" />
             <div className="friend-card-content">
               <h3>
                 <a href={friend.link} target="_blank" rel="noopener noreferrer">

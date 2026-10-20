@@ -1,4 +1,5 @@
 import { generateStaticParamsFor, importPage } from 'nextra/pages';
+
 import { useMDXComponents as getMDXComponents } from '../../mdx-components';
 
 export const generateStaticParams = generateStaticParamsFor('mdxPath');
@@ -8,7 +9,7 @@ export async function generateMetadata(props) {
   const { metadata } = await importPage(params.mdxPath);
   return {
     ...metadata,
-    title: "Young's Toy Box | " + metadata.title,
+    title: `Young's Toy Box | ${metadata.title}`,
   };
 }
 

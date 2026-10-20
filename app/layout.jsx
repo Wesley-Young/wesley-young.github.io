@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog';
 import { Head } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
+import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog';
 import 'nextra-theme-blog/style.css';
 import '@fontsource/inter/100.css';
 import '@fontsource/inter/200.css';
