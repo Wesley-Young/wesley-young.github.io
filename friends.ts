@@ -53,6 +53,12 @@ const friends: Friend[] = [
     avatarUrl: 'https://tyxkk2.me/images/avatar.jpg',
     link: 'https://tyxkk2.me/',
   },
+  {
+    title: '三瓶可乐不过岗',
+    description: '看看~ 看看~',
+    avatarUrl: 'https://blog.thricecola.com/img/avatar.jpg',
+    link: 'https://blog.thricecola.com',
+  },
 ];
 
 export default friends;
