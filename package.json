@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "packageManager": "pnpm@11.17.0",
+  "packageManager": "pnpm@12.18.0",
   "dependencies": {
     "@fontsource-variable/noto-sans-sc": "^5.3.1",
     "@fontsource/inter": "^5.3.0",
