@@ -38,9 +38,13 @@ home: true
   - **Language:** TypeScript
   - **Role:** Main Developer
   - **Status:** ⌨️ Developing
-- [LagrangeV2](https://github.com/LagrangeDev/LagrangeV2) — NTQQ 协议的 C# 实现
+- [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) — NTQQ 协议的 C# 实现
   - **Language:** C#
   - **Role:** Maintainer
+  - **Status:** ⌨️ Developing
+- [Cecilia](https://github.com/Wesley-Young/Cecilia) — Electron 即时聊天软件
+  - **Language:** TypeScript
+  - **Role:** Main Developer
   - **Status:** ⌨️ Developing
 
 ### Inactive
@@ -53,11 +57,3 @@ home: true
   - **Language:** TypeScript
   - **Role:** Main Developer
   - **Status:** 🏗️ Refactoring
-- [Lagrange.Core](https://github.com/LagrangeDev/Lagrange.Core) — NTQQ 协议的 C# 实现
-  - **Language:** C#
-  - **Role:** Contributor
-  - **Status:** 🔒 Archived
-- [Cecilia](https://github.com/Wesley-Young/Cecilia) — TUI 即时聊天软件
-  - **Language:** TypeScript
-  - **Role:** Main Developer
-  - **Status:** ⌨️ Developing
